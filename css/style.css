@@ -1,0 +1,57 @@
+body{
+    background-image: url(../img/jeremy-thomas-E0AHdsENmDg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 3.5em;
+    margin: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+.stage{
+    text-align: center;
+}
+
+.square{
+    width: 230px;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\1F680";
+    font-size: 150px;
+    line-height: 250px;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\2B50";
+    font-size: 150px;
+    line-height: 250px;
+}
